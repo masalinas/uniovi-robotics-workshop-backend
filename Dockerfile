@@ -14,7 +14,7 @@ WORKDIR /home/node/app
 # where available (npm@5+)
 COPY --chown=node package*.json ./
 
-# Copy your npm config (registry credentials for nexus)
+# Copy your npm config (registry credentials for nexus). Remove this line if don't use any Nexus repo
 COPY .npmrc .npmrc
 
 RUN npm install
