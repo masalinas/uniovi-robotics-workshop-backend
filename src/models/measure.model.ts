@@ -1,5 +1,7 @@
 import {Entity, model, property} from '@loopback/repository';
 
+import {Telemetry} from './telemetry.model';
+
 @model({settings: {strict: false}})
 export class Measure extends Entity {
   @property({
@@ -22,10 +24,10 @@ export class Measure extends Entity {
   sensor: string;
 
   @property({
-    type: 'number',
+    type: Telemetry,
     required: true,
   })
-  value: number;
+  value: Telemetry;
 
   @property({
     type: 'date',
