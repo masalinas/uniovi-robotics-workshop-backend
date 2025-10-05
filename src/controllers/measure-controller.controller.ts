@@ -20,7 +20,7 @@ import {
 import {Measure} from '../models';
 import {MeasureRepository} from '../repositories';
 
-export class MeasureControllerController {
+export class MeasureController {
   constructor(
     @repository(MeasureRepository)
     public measureRepository : MeasureRepository,
