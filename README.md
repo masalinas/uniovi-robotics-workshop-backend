@@ -21,6 +21,20 @@ node --version
 npm install -g @loopback/cli
 ```
 
+## Create your project:
+Create your Angular project using the CLI:
+```
+lb4 uniovi-robotics-workshop-backend
+```
+
+## Dependencies
+We must install some extra dependencies after create your Loopback project:
+
+- **Mongodb conenctor** for Loopback: [MongoDB Loopback v4 connector](https://loopback.io/doc/ja/lb3/MongoDB-connector.html)
+```
+npm install loopback-connector-mongodb --save
+```
+
 ## Install dependencies
 
 By default, dependencies were installed when this application was generated.
