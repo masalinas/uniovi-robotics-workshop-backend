@@ -3,7 +3,7 @@
 This application is generated using [LoopBack 4 CLI](https://loopback.io/doc/en/lb4/Command-line-interface.html) with the
 [initial project layout](https://loopback.io/doc/en/lb4/Loopback-application-layout.html).
 
-## Getting Started
+## Getting Started
 Before use [Loopback v4](https://loopback.io/doc/es/lb4/index.html) we must install a node v20+ in your host. First install the nvm (Node Version Manager) and after this installe a node version compatible with Loopback v4.
 
 In windows
