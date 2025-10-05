@@ -21,8 +21,8 @@ node --version
 npm install -g @loopback/cli
 ```
 
-## Create your project:
-Create your Loopback v4 project using the CLI:
+## Scaffold your project:
+Scaffold your nodeJS Loopback v4 project using the CLI:
 ```
 lb4 uniovi-robotics-workshop-backend
 ➜  Temp lb4 uniovi-robotics-workshop-backend
