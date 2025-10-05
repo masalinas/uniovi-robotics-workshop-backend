@@ -171,18 +171,6 @@ Especifique un nombre de propiedad vacío cuando haya terminado
 
 ? Especifique el nombre de propiedad: accX
 ? Tipo de propiedad: number
-? ¿Es accX la propiedad de ID? Yes
-? ¿accX se genera automáticamente? (Y/n) 
-➜  uniovi-robotics-workshop-backend lb4 model telemetry
-? Seleccione la clase base de modelo Model (A business domain object)
-? ¿Desea permitir propiedades (de formato libre) adicionales? No
-Model Telemetry se creará en src/models/telemetry.model.ts
-
-Vamos a añadir una propiedad a Telemetry
-Especifique un nombre de propiedad vacío cuando haya terminado
-
-? Especifique el nombre de propiedad: accX
-? Tipo de propiedad: number
 ? ¿Es accX la propiedad de ID? No
 ? ¿Es necesario?: Yes
 
