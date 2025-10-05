@@ -26,9 +26,6 @@ Scaffold your nodeJS Loopback v4 project using the CLI:
 ```
 lb4 uniovi-robotics-workshop-backend
 ➜  Temp lb4 uniovi-robotics-workshop-backend
-? Descripción de proyecto: uniovi-robotics-workshop-backend
-? Directorio raíz de proyecto: (uniovi-robotics-workshop-backend) 
-➜  Temp lb4 uniovi-robotics-workshop-backend
 ? Descripción de proyecto: Uniovi Robotics Workshop Backend
 ? Directorio raíz de proyecto: uniovi-robotics-workshop-backend
 ? Nombre de clase de aplicación: UnioviRoboticsWorkshopBackendApplication
