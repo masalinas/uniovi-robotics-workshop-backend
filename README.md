@@ -3,6 +3,18 @@
 This application is generated using [LoopBack 4 CLI](https://loopback.io/doc/en/lb4/Command-line-interface.html) with the
 [initial project layout](https://loopback.io/doc/en/lb4/Loopback-application-layout.html).
 
+## Getting Started
+Before use [Loopback v4](https://loopback.io/doc/es/lb4/index.html) we must install a node v20+ in your host. First install the nvm (Node Version Manager) and after this installe a node version compatible with Loopback v4.
+
+In windows
+- Go to [NVM for Windows](https://github.com/coreybutler/nvm-windows#installation--upgrades), downlaod the last [release](https://github.com/coreybutler/nvm-windows/releases) and installe in your system
+
+- Install a node version up os equals to 20 like this from power shell
+```sh
+nvm install 20.19.5
+node --version
+```
+
 ## Install dependencies
 
 By default, dependencies were installed when this application was generated.
