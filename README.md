@@ -16,7 +16,7 @@ nvm install 20.19.5
 node --version
 ```
 
-- Install the Loopback v4 CLI:
+- Install the (Loopback v4 CLI)[https://loopback.io/doc/es/lb4/Getting-started.html]:
 ```
 npm install -g @loopback/cli
 ```
