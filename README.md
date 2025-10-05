@@ -16,6 +16,11 @@ nvm install 20.19.5
 node --version
 ```
 
+- Install the Loopback v4 CLI:
+```
+npm install -g @loopback/cli
+```
+
 ## Install dependencies
 
 By default, dependencies were installed when this application was generated.
