@@ -104,6 +104,8 @@ npm install dotenv --save
 ```
 
 ## Code Project
+After scaffold your project we will code all artifacts: models, datasource, repositories and controllers:
+
 - Create the **Measure Model**:
 ```
 lb4 model measure
