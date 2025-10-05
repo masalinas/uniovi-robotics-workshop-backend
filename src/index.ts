@@ -1,3 +1,21 @@
+import * as dotenv from 'dotenv';
+
+// Load env depending on NODE_ENV or a custom flag
+const env = process.env.NODE_ENV || 'development';
+
+console.log('Environment: ' + process.env.NODE_ENV);
+
+switch (env) {
+  case 'development':
+    dotenv.config({ path: '.env.dev' });
+    break;
+ case 'production':
+    dotenv.config({ path: '.env.prod' });
+    break;
+ default:
+    throw new Error(`Unknown environment: ${env}`);
+}
+
 import {ApplicationConfig, UnioviRoboticsWorkshopBackendApplication} from './application';
 
 export * from './application';
