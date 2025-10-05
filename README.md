@@ -8,9 +8,9 @@ Before use [Loopback v4](https://loopback.io/doc/es/lb4/index.html) we must inst
 
 For windows:
 
-- Go to [NVM for Windows](https://github.com/coreybutler/nvm-windows#installation--upgrades), downlaod the last [release](https://github.com/coreybutler/nvm-windows/releases) and installe in your system
+- Go to [NVM for Windows](https://github.com/coreybutler/nvm-windows#installation--upgrades), download the last [release](https://github.com/coreybutler/nvm-windows/releases) and install in your host:
 
-- Install a node version up os equals to 20 like this from power shell
+- Install a node version up or equals to 20 like this from Windows power shell:
 ```sh
 nvm install 20.19.5
 node --version
