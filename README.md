@@ -103,7 +103,7 @@ npm install loopback-connector-mongodb --save
 npm install dotenv --save
 ```
 
-## Code Project
+## Code Project
 - Create the **Measure Model**:
 ```
 lb4 model measure
