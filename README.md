@@ -30,7 +30,7 @@ lb4 uniovi-robotics-workshop-backend
 ## Dependencies
 We must install some extra dependencies after create your Loopback project:
 
-- **Mongodb conenctor** for Loopback: [MongoDB Loopback v4 connector](https://loopback.io/doc/ja/lb3/MongoDB-connector.html)
+- **MongoDB connector** for Loopback v4: [MongoDB Loopback v4 connector](https://loopback.io/doc/ja/lb3/MongoDB-connector.html)
 ```
 npm install loopback-connector-mongodb --save
 ```
